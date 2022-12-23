@@ -29,7 +29,7 @@ contract FundMe {
         funders.push(msg.sender);
     }
 
-    function getVersion() public view returns (uint256) {
+    function getVersion() public view returns (int256) {
         return priceFeed.version();
     }
 
